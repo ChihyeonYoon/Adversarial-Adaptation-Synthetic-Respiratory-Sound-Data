@@ -4,7 +4,10 @@ Sound Data should be located in
 ```
   Adversarial-Adaptation-Synthetic-Respiratory-Sound-Data/Diffwave/dataset/[train or test]/
 ```
-
+Preprocess
+```
+  python preprocess.py dir [YOUR_SOUND_DATA_DIR] 
+```
 Run trainnig
 ```
   cd Diffwave
