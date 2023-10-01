@@ -13,5 +13,5 @@ Run trainnig
 
 Inference
 ```
-  python inference.py --spectrograms_path [YOUR_AUDIO_SPECTROGRAMS_DIR] --model_dir [YOUR_MODEL] --save_path [PATH_TO_SAVE_GENERATED wav FILE] --fast --mode condition
+  python inference.py --spectrograms_path [YOUR_AUDIO_SPECTROGRAMS_DIR] --model_dir [YOUR_MODEL] --save_path [PATH_TO_SAVE_GENERATED_WAV_FILES] --fast --mode condition
 ```
