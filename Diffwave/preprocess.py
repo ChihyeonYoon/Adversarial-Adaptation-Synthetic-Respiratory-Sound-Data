@@ -23,7 +23,6 @@ from concurrent.futures import ProcessPoolExecutor
 from glob import glob
 from tqdm import tqdm
 
-import matplotlib.pyplot as plt
 
 parser = ArgumentParser(description='prepares a dataset to train DiffWave')
 parser.add_argument('dir',
@@ -66,7 +65,7 @@ def transform(filename):
       spectrogram = torch.clamp((spectrogram + 100) / 100, 0.0, 1.0)
 
       np.save(f'{filename}.spec.npy', spectrogram.cpu().numpy())
-      plt.imsave(f'/home2/multicam/workspace/respiratory/respiratory_sound_classification/spec_images/{filename}.spec.png', spectrogram.cpu().numpy()[0], cmap='gray')
+      
 
 
 filenames = glob(f'{args.dir}/**/*.wav', recursive=True)

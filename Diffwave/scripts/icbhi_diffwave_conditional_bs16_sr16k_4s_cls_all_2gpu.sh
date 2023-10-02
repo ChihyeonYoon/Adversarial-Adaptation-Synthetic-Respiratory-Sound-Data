@@ -5,9 +5,9 @@ for s in $SEED
 do
     for m in $MODEL
     do
-        CUDA_VISIBLE_DEVICES=1 python main.py --dataset  icbhi \
+        CUDA_VISIBLE_DEVICES=2,3 python main.py --dataset  icbhi \
                                         --seed $s \
-                                        --data_dirs ./dataset/test_spectrogram \
+                                        --data_dirs ./dataset \
                                         --batch_size 16 \
                                         --learning_rate 2e-4 \
                                         --sample_rate 16000 \
@@ -16,7 +16,7 @@ do
                                         --hop_samples 256 \
                                         --crop_mel_frames 62 \
                                         --desired_length 4 \
-                                        --tag gpu1 \
+                                        --tag gpu2 \
                                         --hop_samples 256 \
                                         --num_workers 16
 

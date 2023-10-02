@@ -32,7 +32,7 @@ class ConditionalDataset(torch.utils.data.Dataset):
         self.label_list = []
         self.spectrogram_list = []
         for path in paths:
-            self.filenames += glob(f'{path}/**/*.wav', recursive=True)
+            self.filenames += glob(f'{path}/**/**/*.wav', recursive=True)
         
         for fname in self.filenames:
             signal, _ = torchaudio.load(fname)
