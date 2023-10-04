@@ -6,8 +6,8 @@
 <section>
 
 <p>
-  <span style="margin-right: 10px;">(Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
-  <span style="margin-right: 10px;">(ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
+  <span style="margin-right: 100px;">(Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
+  <span style="margin-right: 100px;">(ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
   <span>(LJSpeech Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
 </p>
 
