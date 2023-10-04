@@ -75,6 +75,7 @@ sh ./scripts/eval_1msteps_for_generate_label3.sh
 If you want to generate 10,000 samples from label2's training data, you can modify the ```iter_for_generate=10000``` of the  ```./scripts/eval_1msteps_for_generate_label2.sh``` file.
 
 In script files, you can modify the hyperparameters.
+
 ```iter_for_generate```: how many samples do you want to generate
 
 
