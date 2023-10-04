@@ -25,23 +25,42 @@
 <img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
 
 <p>
-  <span style="margin-right: 150px;">(Test Real) 151_2p3_Al_mc_AKGC417L_event_2_label_3.wav</span>
-  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 151_2p3_Al_mc_AKGC417L_event_2_label_3.wav</span>
-  <span>(LJSpeech Audio Diffusion) 151_2p3_Al_mc_AKGC417L_event_2_label_3.wav</span>
+  <span style="margin-right: 150px;">(Test Real) 170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav</span>
+  <span>(LJSpeech Audio Diffusion) 170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav</span>
 </p>
 
 <audio controls>
-  <source src="Diffwave/samples/test_set_samples/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
+  <source src="Diffwave/samples/test_set_samples/170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_170_1b2_Tc_mc_AKGC417L_event_3_label_0.png" width="300"></img>
 <audio controls>
-  <source src="Diffwave/samples/generated_test_samples/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
+  <source src="Diffwave/samples/generated_test_samples/170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/generated_test_samples/icbhi_generated_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_170_1b2_Tc_mc_AKGC417L_event_3_label_0.png" width="300"></img>
 <audio controls>
-  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_170_1b2_Tc_mc_AKGC417L_event_3_label_0.png" width="300"></img>
+
+<p>
+  <span style="margin-right: 150px;">(Test Real) 187_1b1_Ll_sc_Meditron_event_13_label_0.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 187_1b1_Ll_sc_Meditron_event_13_label_0.wav</span>
+  <span>(LJSpeech Audio Diffusion) 187_1b1_Ll_sc_Meditron_event_13_label_0.wav</span>
+</p>
+
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/187_1b1_Ll_sc_Meditron_event_13_label_0.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_187_1b1_Ll_sc_Meditron_event_13_label_0.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/187_1b1_Ll_sc_Meditron_event_13_label_0.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_187_1b1_Ll_sc_Meditron_event_13_label_0.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/187_1b1_Ll_sc_Meditron_event_13_label_0.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_187_1b1_Ll_sc_Meditron_event_13_label_0.png" width="300"></img>
 
 </section>
 
