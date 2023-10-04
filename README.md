@@ -3,12 +3,22 @@
 ## Generated Samples
 
 ### Label 'Normal'
+<section>
 
 #### (Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
 </audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+
+#### (ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
+</audio>
 <img src="Diffwave/samples/generated_test_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+
+</section>
+
 
 #### (Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
 <audio controls>
