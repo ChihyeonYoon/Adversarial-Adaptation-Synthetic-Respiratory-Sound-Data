@@ -1,5 +1,35 @@
 # Generate respiratory samples with audio diffusion model
 
+## Generated Samples
+
+### Label 'Normal'
+
+#### (Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
+<audio controls="controls">  
+  <source type="audio/wav" src="test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav"></source>
+  <img width="300" src="test_set_samples/real_147_2b4_Pl_mc_AKGC417L_event_2_label_0.png">
+</audio>
+
+#### (ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
+<audio controls="controls">  
+  <source type="audio/wav" src="generated_test_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav"></source>
+  <img width="300" src="generated_test_samples/icbhi_generated_147_2b4_Pl_mc_AKGC417L_event_2_label_0.png">
+</audio>
+
+#### (LJSpeech Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
+<audio controls="controls">  
+  <source type="audio/wav" src="generated_test_samples_from_speech_pretrained/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav"></source>
+  <img width="300" src="generated_test_samples_from_speech_pretrained/ljspeech_generated_147_2b4_Pl_mc_AKGC417L_event_2_label_0.png">
+</audio>
+
+### Label 'Crackle'
+
+### Label 'Wheeze'
+
+### Label 'Both'
+
+
+
 ## Generate Sound Data
 
 
@@ -73,7 +103,7 @@ In script files, you can modify the hyperparameters.
 ```iter_for_generate```: how many samples do you want to generate
 
 
-### Generated Samples
+
 
 
 ### References
