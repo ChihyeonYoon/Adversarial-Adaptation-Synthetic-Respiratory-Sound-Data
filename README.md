@@ -5,25 +5,24 @@
 ### Label 'Normal'
 <section>
 
-    <p>
-      <span style="margin-right: 10px;">(Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
-      <span style="margin-right: 10px;">(ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
-      <span>(LJSpeech Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
-    </p>
-    <audio controls>
-      <source src="Diffwave/samples/test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
-    </audio>
-    <img src="Diffwave/samples/test_set_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<p>
+  <span style="margin-right: 10px;">(Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
+  <span style="margin-right: 10px;">(ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
+  <span>(LJSpeech Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span>
+</p>
 
-    <audio controls>
-      <source src="Diffwave/samples/generated_test_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
-    </audio>
-    <img src="Diffwave/samples/generated_test_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
-
-    <audio controls>
-      <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
-    </audio>
-    <img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
 
 </section>
 
