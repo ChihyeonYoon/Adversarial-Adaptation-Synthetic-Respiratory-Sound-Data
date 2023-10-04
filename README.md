@@ -5,7 +5,7 @@
 ### Label 'Normal'
 <section>
 
-<p style="display: inline;">(Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</p> <p style="display: inline;">(ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</p>
+<p><span>(Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span> <span>(ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav</span></p>
   <audio controls>
     <source src="Diffwave/samples/test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
   </audio>
