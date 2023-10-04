@@ -45,7 +45,7 @@ python inference.py [YOUR_MODEL_PATH] --spectrogram_path [Spectrograms_PATH]
 # [Spectrograms_PATH] directory should contain the preprocessed spectorgrams you want to synthesize 
 
 여기에 선배 쓰시는 inference.py 사용할 수 있는 명령어 적어주세요
-(지금 있는 inference.py는 하나 하나 생성하는 것임. 교체필요.)
+(지금 있는 inference.py는 folder by folder 생성하는 것임.)
 dataset mixing 도 추가하시면 될거 같습니다.
 ```
 
