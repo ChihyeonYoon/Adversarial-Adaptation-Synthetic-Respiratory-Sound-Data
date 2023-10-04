@@ -3,31 +3,26 @@
 ## Generate Sound Data
 
 
-### 1. Download ICBHI lung Sound Data 
-We provide the ICBHI respiratory sound dataset we used in this project.
+### 1. Download ICBHI lung Sound Data
+(Note: At the end of the anonymity rules term, we will provide an organized and pre-processed dataset of our progress.)  
 
-https://drive.google.com/file/d/1hycczKL1k_nCps0ARUFhqxYSqDE30ocm/view?usp=sharing
+Download the ICBHI respiratory sound dataset  
+unzip the file and put it in the certain directory. 
 
-This version has
-unzip the file and put it in the directory.  
 Sound Data should be located in
 ```
 Adversarial-Adaptation-Synthetic-Respiratory-Sound-Data/Diffwave/dataset/
 ```
 it might be like this.
 ```
-Adversarial-Adaptation-Synthetic-Respiratory-Sound-Data/Diffwave/dataset/wav_4secs_16000/...
+Adversarial-Adaptation-Synthetic-Respiratory-Sound-Data/Diffwave/dataset/[train_or_test]/[wav_files]
 ```
-
+ 
 ### Preprocess 
-```
-Note that you can skip ```Preprocess``` if you download the dataset via aforementioned google drive link
-```
-
 Pre-process waveform to Mel-spectrogram.  
-(not necessary. the spectrogram files already exists in the dataset we provide.)
 ```
-python preprocess.py dir [YOUR_SOUND_DATA_DIR] 
+python preprocess.py dir [YOUR_SOUND_DATA_DIR]  
+# [YOUR_SOUND_DATA_DIR] should be mentioned above  
 ```
 
 ### Run Diffwave training
@@ -37,9 +32,8 @@ sh ./scripts/train_1msteps_icbhi.sh
 ```
 
 ### Model
-We offer 1M step model we made. This is only 30MB. 
-
-https://drive.google.com/file/d/1LU3pKDHc85bSkQ_BZH5ZTxsCGsOHyXnS/view?usp=sharing  
+(Note: Due to anonymity rules, we cannot provide the 1M step model at this time.
+But we will provide it when the term is over.)  
 
 Model should be located in
 ```
