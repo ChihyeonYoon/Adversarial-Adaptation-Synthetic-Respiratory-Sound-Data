@@ -188,6 +188,69 @@
 
 </section>
 
+### Label 'Both'
+<section>
+
+<p>
+  <span style="margin-right: 150px;">(Test Real) 151_2p3_Al_mc_AKGC417L_event_2_label_3.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 151_2p3_Al_mc_AKGC417L_event_2_label_3.wav</span>
+  <span>(LJSpeech Audio Diffusion) 151_2p3_Al_mc_AKGC417L_event_2_label_3.wav</span>
+</p>
+
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
+
+<p>
+  <span style="margin-right: 150px;">(Test Real) 195_1b1_Ll_sc_Litt3200_event_3_label_3.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 195_1b1_Ll_sc_Litt3200_event_3_label_3.wav</span>
+  <span>(LJSpeech Audio Diffusion) 195_1b1_Ll_sc_Litt3200_event_3_label_3.wav</span>
+</p>
+
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/195_1b1_Ll_sc_Litt3200_event_3_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_195_1b1_Ll_sc_Litt3200_event_3_label_3.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/195_1b1_Ll_sc_Litt3200_event_3_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_195_1b1_Ll_sc_Litt3200_event_3_label_3.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/195_1b1_Ll_sc_Litt3200_event_3_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_195_1b1_Ll_sc_Litt3200_event_3_label_3.png" width="300"></img>
+
+<p>
+  <span style="margin-right: 150px;">(Test Real) 218_1p1_Pl_sc_Litt3200_event_6_label_3.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 218_1p1_Pl_sc_Litt3200_event_6_label_3.wav</span>
+  <span>(LJSpeech Audio Diffusion) 218_1p1_Pl_sc_Litt3200_event_6_label_3.wav</span>
+</p>
+
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/218_1p1_Pl_sc_Litt3200_event_6_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_218_1p1_Pl_sc_Litt3200_event_6_label_3.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/218_1p1_Pl_sc_Litt3200_event_6_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_218_1p1_Pl_sc_Litt3200_event_6_label_3.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/218_1p1_Pl_sc_Litt3200_event_6_label_3.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_218_1p1_Pl_sc_Litt3200_event_6_label_3.png" width="300"></img>
+
+</section>
+
+
 ## Notion
 To train or evalutate the audio diffusion model, please see ```Diffwave/``` folder.
 
