@@ -114,7 +114,6 @@ def predict(spectrogram=None, model_dir=None, params=None, attrdict=None, class_
         spectrogram = spectrogram.unsqueeze(0)
       spectrogram = spectrogram.to(device)
       audio = torch.randn(spectrogram.shape[0], model.params.hop_samples * spectrogram.shape[-1], device=device)
-      #print('conditional spectrogram {} hop_samples {}'.format(spectrogram.size(), model.params.hop_samples))
     else:
       audio = torch.randn(1, params.audio_len, device=device)
     noise_scale = torch.from_numpy(alpha_cum**0.5).float().unsqueeze(1).to(device)
@@ -123,7 +122,6 @@ def predict(spectrogram=None, model_dir=None, params=None, attrdict=None, class_
       c1 = 1 / alpha[n]**0.5
       c2 = beta[n] / (1 - alpha_cum[n])**0.5
       #audio = c1 * (audio - c2 * model(audio, torch.tensor([T[n]], device=audio.device), spectrogram).squeeze(1))
-      #print('params check', model.params.class_condition)
       if model.params.class_condition:
         audio = c1 * (audio - c2 * model(audio, torch.tensor([T[n]], device=audio.device), spectrogram, class_condition.to(device)).squeeze(1))
       else:
@@ -168,28 +166,45 @@ def main(args):
             spectrogram_list = sorted(glob(args.spectrogram_path+'/*.npy'))
         else:
             spectrogram_list = sorted(glob(args.spectrogram_path+'/*label_{}*.npy'.format(args.select_label)))
-        for spec in spectrogram_list:    
-            spectrogram = torch.from_numpy(np.load(spec))
-            _, spec_id = os.path.split(spec)
-            spec_id_tmp = spec_id.split('.')[0]
-            print(spec_id_tmp)
-            #speak_id = spec_id_tmp.split('_')[0]
-            #label = spec_id_tmp.split('_')[-1]
-            #exit()
-            audio, sr = predict(spectrogram, model_dir=args.model_dir, fast_sampling=args.fast, params=base_params, attrdict=AttrDict, class_condition=torch.tensor(args.class_condition))
-            #torchaudio.save(os.path.join(output_dir_for_ckpt, 'speaker={}_label={}.wav'.format(speak_id, label)), audio.cpu(), sample_rate=sr)
-            torchaudio.save(os.path.join(output_dir_for_ckpt, spec_id_tmp+'.wav'), audio.cpu(), sample_rate=sr)
-    else:
-        spectrogram = None
-        for i in range(1, args.iter+1):
-            audio, sr = predict(spectrogram, model_dir=args.model_dir, fast_sampling=args.fast, params=base_params, attrdict=AttrDict, class_condition=torch.tensor(args.class_condition))
-            torchaudio.save(os.path.join(output_dir_for_ckpt, 'uncondition_iter={}_class={}.wav'.format(i, args.class_condition)), audio.cpu(), sample_rate=sr)
+        if args.iter_for_generate > 1:
+            for idx in range(1, args.iter_for_generate + 1):
+                chosen_index = random.randrange(len(spectrogram_list))
+                chosen_spectrogram = spectrogram_list[chosen_index]
+                _, spec_id = os.path.split(chosen_spectrogram)
+                spec_id_tmp = spec_id.split('.')[0]
+                
+                
+                '''
+                # for visualization
+                plot_spectrogram_to_numpy(spectrogram.numpy(), '{}'.format(idx), 'Original Spectrogram')
+                audio, sr = predict(spectrogram, model_dir=args.model_dir, fast_sampling=args.fast, params=base_params, attrdict=AttrDict, class_condition=torch.tensor(args.class_condition))
+                generated_spectrogram = mel_spec_transform(audio.cpu())
+                generated_spectrogram = 20 * torch.log10(torch.clamp(generated_spectrogram, min=1e-5)) - 20
+                generated_spectrogram = torch.clamp((generated_spectrogram + 100) / 100, 0.0, 1.0)
+                plot_spectrogram_to_numpy(generated_spectrogram.squeeze(0).numpy(), '{}+_index={}'.format(spec_id_tmp, idx), 'Generated audio with no augmentation')
+                torchaudio.save(os.path.join(output_dir_for_ckpt, spec_id_tmp+'_index={}.wav'.format(idx)), audio.cpu(), sample_rate=sr)
+                '''                
+                
+                spectrogram = torch.from_numpy(np.load(chosen_spectrogram))
+                aug_audio, sr = predict(spectrogram, model_dir=args.model_dir, fast_sampling=args.fast, params=base_params, attrdict=AttrDict, class_condition=torch.tensor(args.class_condition)) # note that class_condition is not working
+                torchaudio.save(os.path.join(output_dir_for_ckpt, spec_id_tmp+'_index={}.wav'.format(idx)), aug_audio.cpu(), sample_rate=sr)
+                
+                print('{}-index {} saved at {}'.format(idx, spec_id_tmp, os.path.join(output_dir_for_ckpt, spec_id_tmp+'_index={}.wav'.format(idx))))
+        else:
+            for chosen_spectrogram in spectrogram_list:
+                spectrogram = torch.from_numpy(np.load(chosen_spectrogram))
+                _, spec_id = os.path.split(chosen_spectrogram)
+                spec_id_tmp = spec_id.split('.')[0]
+                audio, sr = predict(spectrogram, model_dir=args.model_dir, fast_sampling=args.fast, params=base_params, attrdict=AttrDict, class_condition=torch.tensor(args.class_condition))
+                torchaudio.save(os.path.join(output_dir_for_ckpt, spec_id_tmp+'.wav'), audio.cpu(), sample_rate=sr)
+                print('spec_id_tmp {} done'.format(spec_id_tmp))
+
     
     
     
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':    
     parser = ArgumentParser(description='runs inference on a spectrogram file generated by diffwave.preprocess')
     parser.add_argument('model_dir', help='directory containing a trained model (or full path to weights.pt file)')
     parser.add_argument('--spectrogram_path', '-s', help='path to a spectrogram file generated by diffwave.preprocess')
@@ -197,6 +212,6 @@ if __name__ == '__main__':
     parser.add_argument('--fast', '-f', action='store_true', help='fast sampling procedure')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--select_label', type=int, default=-1)
-    parser.add_argument('--iter', type=int, default=0)
+    parser.add_argument('--iter_for_generate', type=int, default=0)
     parser.add_argument('--class_condition', type=int, default=0)
     main(parser.parse_args())

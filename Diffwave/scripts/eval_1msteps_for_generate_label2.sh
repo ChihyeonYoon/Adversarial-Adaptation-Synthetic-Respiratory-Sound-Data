@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python inference.py --fast ./save/1msteps_icbhi_Diffwave -s ./samples/train_spectrogram -o ./samples/generated_train_samples_label2 --iter_for_generate 2000 --select_label 2
