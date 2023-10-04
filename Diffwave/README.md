@@ -33,7 +33,11 @@ sh ./scripts/icbhi_diffwave_conditional_bs16_sr16k_4s_cls_all_2gpu.sh
 
 ### Model
 https://drive.google.com/file/d/1LU3pKDHc85bSkQ_BZH5ZTxsCGsOHyXnS/view?usp=sharing
-
+Model should be located in
+```
+Adversarial-Adaptation-Synthetic-Respiratory-Sound-Data/Diffwave/save/[CHECKPOINT]/
+```
+for inference
 ### Inference
 ```
 python inference.py [YOUR_MODEL_PATH] --spectrogram_path [Spectrograms_PATH]
