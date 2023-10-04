@@ -14,7 +14,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav" type="audio/wav">
 </audio>
@@ -33,7 +33,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_170_1b2_Tc_mc_AKGC417L_event_3_label_0.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_170_1b2_Tc_mc_AKGC417L_event_3_label_0.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/170_1b2_Tc_mc_AKGC417L_event_3_label_0.wav" type="audio/wav">
 </audio>
@@ -52,7 +52,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/187_1b1_Ll_sc_Meditron_event_13_label_0.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_187_1b1_Ll_sc_Meditron_event_13_label_0.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_187_1b1_Ll_sc_Meditron_event_13_label_0.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/187_1b1_Ll_sc_Meditron_event_13_label_0.wav" type="audio/wav">
 </audio>
@@ -76,7 +76,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/176_2b3_Ar_mc_AKGC417L_event_2_label_1.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_176_2b3_Ar_mc_AKGC417L_event_2_label_1.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_176_2b3_Ar_mc_AKGC417L_event_2_label_1.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/176_2b3_Ar_mc_AKGC417L_event_2_label_1.wav" type="audio/wav">
 </audio>
@@ -95,7 +95,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/178_1b2_Lr_mc_AKGC417L_event_11_label_1.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_178_1b2_Lr_mc_AKGC417L_event_11_label_1.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_178_1b2_Lr_mc_AKGC417L_event_11_label_1.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/178_1b2_Lr_mc_AKGC417L_event_11_label_1.wav" type="audio/wav">
 </audio>
@@ -114,7 +114,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/216_1b1_Al_sc_Meditron_event_2_label_1.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_216_1b1_Al_sc_Meditron_event_2_label_1.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_216_1b1_Al_sc_Meditron_event_2_label_1.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/216_1b1_Al_sc_Meditron_event_2_label_1.wav" type="audio/wav">
 </audio>
@@ -138,7 +138,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav" type="audio/wav">
 </audio>
@@ -157,7 +157,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/218_1b1_Pr_sc_Meditron_event_2_label_2.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_218_1b1_Pr_sc_Meditron_event_2_label_2.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_218_1b1_Pr_sc_Meditron_event_2_label_2.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/218_1b1_Pr_sc_Meditron_event_2_label_2.wav" type="audio/wav">
 </audio>
@@ -176,7 +176,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/223_1b1_Pr_sc_Meditron_event_7_label_2.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_223_1b1_Pr_sc_Meditron_event_7_label_2.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_223_1b1_Pr_sc_Meditron_event_7_label_2.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/223_1b1_Pr_sc_Meditron_event_7_label_2.wav" type="audio/wav">
 </audio>
@@ -200,7 +200,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_151_2p3_Al_mc_AKGC417L_event_2_label_3.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/151_2p3_Al_mc_AKGC417L_event_2_label_3.wav" type="audio/wav">
 </audio>
@@ -219,7 +219,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/195_1b1_Ll_sc_Litt3200_event_3_label_3.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_195_1b1_Ll_sc_Litt3200_event_3_label_3.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_195_1b1_Ll_sc_Litt3200_event_3_label_3.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/195_1b1_Ll_sc_Litt3200_event_3_label_3.wav" type="audio/wav">
 </audio>
@@ -238,7 +238,7 @@
 <audio controls>
   <source src="Diffwave/samples/test_set_samples/218_1p1_Pl_sc_Litt3200_event_6_label_3.wav" type="audio/wav">
 </audio>
-<img src="Diffwave/samples/test_set_samples/icbhi_generated_218_1p1_Pl_sc_Litt3200_event_6_label_3.png" width="300"></img>
+<img src="Diffwave/samples/test_set_samples/real_218_1p1_Pl_sc_Litt3200_event_6_label_3.png" width="300"></img>
 <audio controls>
   <source src="Diffwave/samples/generated_test_samples/218_1p1_Pl_sc_Litt3200_event_6_label_3.wav" type="audio/wav">
 </audio>
