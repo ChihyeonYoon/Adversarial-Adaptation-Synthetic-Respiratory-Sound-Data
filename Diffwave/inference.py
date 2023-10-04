@@ -153,7 +153,7 @@ def main(args):
     _ckpt_dir, model_name = os.path.split(ckpt_dir)
     ckpt_name_tmp = ckpt_name.split('.')[0]+'_seed={}'.format(args.seed)
     _, exp_name = os.path.split(args.model_dir)
-    json_dir = os.path.join(ckpt_dir, 'train_args.json')
+    json_dir = os.path.join(ckpt_dir, ckpt_name, 'train_args.json')
     with open(json_dir, "r") as json_infor:
         params_infor = json.load(json_infor)
     
