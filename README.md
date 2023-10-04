@@ -5,11 +5,13 @@
 ### Label 'Normal'
 
 #### (Test Real) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
-<audio controls="controls">  
-  <source type="audio/wav" src="Diffwave/samples/test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav"></source>
+<audio 
+  controls
+  source="Diffwave/samples/test_set_samples/147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav"
+  type="audio/wav"
+  </audio>
   <img width="300" src="https://github.com/ChihyeonYoon/Adversarial-Adaptation-Synthetic-Respiratory-Sound-Data/assets/46586785/c211aadd-c381-49d5-a349-7bc8e28f274b">
 
-</audio>
 
 #### (ICBHI Audio Diffusion) 147_2b4_Pl_mc_AKGC417L_event_2_label_0.wav
 <audio controls="controls">  
