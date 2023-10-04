@@ -162,10 +162,7 @@ def main(args):
     
     
     if args.spectrogram_path:
-        if args.select_label == -1:
-            spectrogram_list = sorted(glob(args.spectrogram_path+'/*.npy'))
-        else:
-            spectrogram_list = sorted(glob(args.spectrogram_path+'/*label_{}*.npy'.format(args.select_label)))
+        spectrogram_list = sorted(glob(args.spectrogram_path+'/*.npy'))
         if args.iter_for_generate > 1:
             for idx in range(1, args.iter_for_generate + 1):
                 chosen_index = random.randrange(len(spectrogram_list))
@@ -211,7 +208,6 @@ if __name__ == '__main__':
     parser.add_argument('--output', '-o', default='output.wav', help='output file name')
     parser.add_argument('--fast', '-f', action='store_true', help='fast sampling procedure')
     parser.add_argument('--seed', type=int, default=0)
-    parser.add_argument('--select_label', type=int, default=-1)
     parser.add_argument('--iter_for_generate', type=int, default=0)
     parser.add_argument('--class_condition', type=int, default=0)
     main(parser.parse_args())
