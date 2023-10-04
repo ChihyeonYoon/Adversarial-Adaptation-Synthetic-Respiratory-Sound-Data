@@ -74,15 +74,4 @@ def main(args):
     list(tqdm(executor.map(transform, filenames), desc='Preprocessing', total=len(filenames)))
 
 if __name__ == '__main__':
-    parser = ArgumentParser(description='prepares a dataset to train DiffWave')
-    parser.add_argument('dir',
-        help='directory containing .wav files for training')
-    parser.add_argument('--sr', type=int, default=16000,
-        help='sample rate')
-    parser.add_argument('--hop', type=int, default=256,
-        help='number of overlap')
-    parser.add_argument('--nfft', type=int, default=1024,
-        help='number of fft')
-    parser.add_argument('--n_mels', type=int, default=80,
-        help='number of mel bins')
-    main(parser.parse_args())
+    main(args)
