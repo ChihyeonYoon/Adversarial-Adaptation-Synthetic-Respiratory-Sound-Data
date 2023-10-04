@@ -3,7 +3,7 @@
 ## Generate Sound Data
 
 
-### ICBHI lung Sound Data Download
+### Download ICBHI lung Sound Data 
 We offer the ICBHI lung sound data we used in this project.
 
 https://drive.google.com/file/d/1hycczKL1k_nCps0ARUFhqxYSqDE30ocm/view?usp=sharing
