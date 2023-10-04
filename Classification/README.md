@@ -9,9 +9,35 @@ Training Respiratory Sound Classification Model with Adversarial FT
 
 ## Datasets
 
-We provide the pre-processed dataset with original ICBHI and Mixed500 dataset as follows:
+### Generated Training Samples (Shared will be the final version)
 
-Please download and extract in ./data/
+We set the dataloader as event-level loader
+
+Owing to anonymity, we will provide the original ICBHI dataset, Mixed-500, Mixed-2k in the final version
+
+However, you can move data via download from ICBHI dataset, and generated from our pretrained Diffwave.
+
+For the real training samples, move into
+```
+./data/real/
+```
+
+For the Mixed500, move into
+```
+./data/generated_from_1msteps/mixed500/
+```
+
+For the Mixed2k, move into
+```
+./data/generated_from_1msteps/mixed2k/
+```
+
+
+### Test samples
+Move all the test sets (event-level) into 
+```
+./data/test/real/
+```
 
 ## Run
 
@@ -37,12 +63,5 @@ $ ./scripts/icbhi_aft_1msteps_500_mixed.sh
 
 ## Evaluation
 
-We provide the AFT pretrained on Mixed500, which has the performance of around 62 Score as follows:
-
-
-Please download and move in ./
-
-### Run evaluation
-```
-$ ./scripts/eval_aft_mixed500.sh
-```
+### Pretrained AFT weights
+We will provide the AFT pretrained on Mixed500, which has the performance of around 62 Score in the final version
