@@ -1,10 +1,9 @@
-# Adversarial Adaptation Synthetic REspiratory Sound Data
-Adversarial Adaptation to Align Synthetic Respiratory Sound Data for Improved Imbalanced Classification Task
+# Adversarial Fine-tuning using Generated Respiratory Sound to Address Class Imbalance
 
 ## Notion
 To train or evalutate the audio diffusion model, please see ```Diffwave/``` folder.
 
-To train or evalutate the respiratory sound classification task, please see ``Classification/``` folder.
+To train or evalutate the respiratory sound classification task, please see ```Classification/``` folder.
 
 ## Environmental set-up
 
