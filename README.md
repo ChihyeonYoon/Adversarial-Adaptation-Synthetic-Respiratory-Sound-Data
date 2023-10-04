@@ -126,6 +126,67 @@
 
 </section>
 
+### Label 'Wheeze'
+<section>
+
+<p>
+  <span style="margin-right: 150px;">(Test Real) 147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav</span>
+  <span>(LJSpeech Audio Diffusion) 147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav</span>
+</p>
+
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/147_2b2_Pl_mc_AKGC417L_event_2_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_147_2b2_Pl_mc_AKGC417L_event_2_label_2.png" width="300"></img>
+
+<p>
+  <span style="margin-right: 150px;">(Test Real) 218_1b1_Pr_sc_Meditron_event_2_label_2.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 218_1b1_Pr_sc_Meditron_event_2_label_2.wav</span>
+  <span>(LJSpeech Audio Diffusion) 218_1b1_Pr_sc_Meditron_event_2_label_2.wav</span>
+</p>
+
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/218_1b1_Pr_sc_Meditron_event_2_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_218_1b1_Pr_sc_Meditron_event_2_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/218_1b1_Pr_sc_Meditron_event_2_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_218_1b1_Pr_sc_Meditron_event_2_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/218_1b1_Pr_sc_Meditron_event_2_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_218_1b1_Pr_sc_Meditron_event_2_label_2.png" width="300"></img>
+
+<p>
+  <span style="margin-right: 150px;">(Test Real) 223_1b1_Pr_sc_Meditron_event_7_label_2.wav</span>
+  <span style="margin-right: 150px;">(ICBHI Audio Diffusion) 223_1b1_Pr_sc_Meditron_event_7_label_2.wav</span>
+  <span>(LJSpeech Audio Diffusion) 223_1b1_Pr_sc_Meditron_event_7_label_2.wav</span>
+</p>
+
+<audio controls>
+  <source src="Diffwave/samples/test_set_samples/223_1b1_Pr_sc_Meditron_event_7_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/test_set_samples/icbhi_generated_223_1b1_Pr_sc_Meditron_event_7_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples/223_1b1_Pr_sc_Meditron_event_7_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples/icbhi_generated_223_1b1_Pr_sc_Meditron_event_7_label_2.png" width="300"></img>
+<audio controls>
+  <source src="Diffwave/samples/generated_test_samples_from_speech_pretrained/223_1b1_Pr_sc_Meditron_event_7_label_2.wav" type="audio/wav">
+</audio>
+<img src="Diffwave/samples/generated_test_samples_from_speech_pretrained/ljspeech_generated_223_1b1_Pr_sc_Meditron_event_7_label_2.png" width="300"></img>
+
+</section>
 
 ## Notion
 To train or evalutate the audio diffusion model, please see ```Diffwave/``` folder.
