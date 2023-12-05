@@ -1,5 +1,5 @@
 # Adversarial Fine-tuning using Generated Respiratory Sound to Address Class Imbalance
-
+paper https://arxiv.org/abs/2311.06480
 ## Generated Samples
 
 ### Label 'Normal'
